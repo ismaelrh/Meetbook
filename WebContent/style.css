@@ -1,0 +1,595 @@
+
+
+/*Color de fondo de la página*/
+body {
+  background-color: #a0a0a0;
+  line-height: 1.28;
+  text-align: left;
+  direction: ltr;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+div {
+	display: block;
+}
+
+/* Caja de advertencia */
+.warningBox{
+ 	background-color: #FFFF00;
+ 	border: 3px solid;
+ 	border-radius: 5px;
+ 	padding-left:15px;
+ 	padding-top:7px;
+ 	padding-bottom:7px;
+ 	margin-bottom:15px;
+}
+
+.submitLink {
+background-color: transparent;
+text-decoration: underline;
+border: none;
+color: blue;
+cursor: pointer;
+width: 100%;
+float:left;
+color: rgb(30, 30, 30);
+text-decoration: none;
+}
+/* Cuadros eventos */
+.tablaIzq{ 
+   
+   width: 60%;
+   float:left;
+   display:inline;
+   margin: 10 10 0 10px;   
+} 
+
+.tablaDcha{ 
+   
+   width: 35%; 
+   float:left;
+   display:inline;
+   margin: 10 0 0 0px; 
+} 
+
+.cabtab3{  
+   font-weight: bold; 
+   font-size: 8pt; 
+} 
+
+.cuerpotab3{ 
+   font-size: 11pt; 
+   padding: 4 4 4 4px; 
+   background-color: ; 
+   overflow: auto;
+} 
+
+.cuerpotab3 ul{ 
+   margin: 0 2 0 20px; 
+   padding: 0 0 0 0px; 
+} 
+
+.cuerpotab3 li{ 
+   margin: 0 2 0 2px; 
+   padding: 0 0 0 0px; 
+}
+
+.contenidoo{
+  
+  margin: 1%;
+  border-radius: 3px;
+ 
+  overflow: auto;
+ 
+}
+
+.columna-principal{
+	box-shadow: 4px 4px 2px #888888;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top:1%;
+	background-color: #FFFFFF;
+	
+}
+
+.columna-lateral{
+	box-shadow: 4px 4px 2px #888888;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top:2.5%;
+	background-color: #FFFFFF;
+	
+}
+
+.ButtonEvent{
+font-size: 11pt;
+  padding:6px 15px;
+  border:2px solid #207cca;
+  background-color:#33B5E5;
+  color:#fafafa;	
+  margin-top:15px;
+  margin-left:15px;
+  float:left;
+}
+
+.ButtonEvent:hover  {
+  background-color:#fafafa;
+  color:#207cca;
+}
+
+/*Caja contenedora de campos de registro*/
+.registerBox{
+  background-color: #f0f0f0;
+}
+
+#eventBox{
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+}
+
+#eventBox:hover{
+  border-radius: 8px;
+  box-shadow: inset 0 0 15px #007DC1;
+  background-color: #f0f0f0;
+}
+
+.simpleBox2{
+ background-color: #f0f0f0;
+ border: 1px solid;
+ border-radius: 5px;
+ padding-left:15px;
+ padding-top:7px;
+ padding-bottom:7px;
+ margin-bottom:15px;
+ width: 65%;
+ overflow: auto;
+ float: left;
+ margin-right: 2%
+}
+
+.simpleBox3{
+ background-color: #f0f0f0;
+ border: 1px solid;
+ border-radius: 5px;
+ padding-left:15px;
+ padding-top:7px;
+ padding-bottom:7px;
+ margin-bottom:15px;
+ width: 28%;
+ height: 91%;
+ overflow: auto;
+ align: right;
+ float: right;
+}
+
+.rectangleEvent {
+background-color: #D8D8D8;
+color: #1C1C1C;
+font-size: 13px;
+font-weight: 500;
+padding-left: 15px;
+text-transform: uppercase;
+margin-bottom: 10px;
+text-align: left;
+}
+
+/*Parte izquierda (etiqueta) de linea de registro formada por etiqueta e input*/
+.formLeft {
+  float: left;
+  width: 150px;
+  text-align: right;
+  margin-right: 0.5em;
+}
+
+/*Parte derecha (input) de linea de registro formada por etiqueta e input*/
+.formRight {
+  margin-left: 20px;
+  padding-left: 0.5em;
+}
+
+/*Imagen centrada*/
+.centeredImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Botón de formulario*/
+.formButton{
+  margin-top:5px;
+  margin-left:3px;
+  margin-right:5px;
+  margin-bottom:5px;
+  min-width: 80px;
+  min-height: 30px;
+}
+
+/*Texto de error*/
+.errorText{
+  color: #FF0000;
+}
+
+/*Imagen de portada de película / serie*/
+.coverImage{
+  float: left;
+  height: 250px;
+  box-shadow: 10px 10px 5px #888888;
+  margin-right:30px;
+}
+
+/*Imagen de portada de película / serie en Inicio*/
+.coverImageShow{
+  float: left;
+  height: 200px;
+  margin-right:30px;
+
+}
+.coverImageShowMini{
+  float: left;
+  height: 150px;
+  margin-right:30px;
+}
+
+/*Cuadro para mostrar pelicula  o serie*/
+.movieShow{
+  border: 2px solid;
+  min-height:200px;
+  background-color: #f0f0f0;
+  padding-right:10px;
+}
+
+.descripcion{
+  margin-left:200px;
+}
+
+/*Cuadro azul con borde, que nos sirve de base*/
+.blueBox{
+ background-color: #E0EBEB;
+ border: 1px solid;
+ border-radius: 5px;
+ padding-left:15px;
+ padding-top:7px;
+ padding-bottom:7px;
+ margin-bottom:15px;
+}
+
+/*Caja simple, blanca*/
+.simpleBox{
+ background-color: #f0f0f0;
+ border: 1px solid;
+ border-radius: 5px;
+ padding-left:15px;
+ padding-top:7px;
+ padding-bottom:7px;
+ margin-bottom:15px;
+}
+
+/*Nombre de creador de un comentario*/
+.commentName{
+  padding-left:20px;
+  margin-top:20px;
+  font-weight: bold;
+}
+
+/*Opciones a aplicar sobre un comentario*/
+.commentOption {
+  position:relative;
+  float:right;
+  margin-left:2px;
+  margin-right:2px;
+  border:2px solid #207cca;
+  background-color:#33B5E5;
+  font-size: 13px;
+  font-family: "Verdana", Georgia, Serif;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.commentOptionLeft {
+  position:relative;
+  float:left;
+  margin-left:2px;
+  margin-right:2px;
+  border:2px solid #207cca;
+  background-color:#33B5E5;
+  font-size: 13px;
+  font-family: "Verdana", Georgia, Serif;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*Eliminamos subrayado de links*/
+.commentOption:link{
+  text-decoration: none;
+}
+
+/*Al pasar el ratón sobre el comentario*/
+.commentOption :hover{
+  background-color:#fafafa;
+  color:#207cca;
+}
+
+/*Tabla Informacion de los Usuarios*/
+.tablaInfo{
+  border: 2px solid black;
+  background-color: #FFFFFF;
+  padding:14px;
+  border-radius: 5px;
+  width:50%
+
+}
+
+/*Celda de tabla de datos, con bordes y fondo azul*/
+.celdaTabla{
+  background-color: #FFFFFF;
+  border:1px solid;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#topBar{
+  position: fixed;
+  top: 0px;
+  left: 0;
+  height:60px;
+  width:100%;
+  background: -webkit-linear-gradient(#0099CC, #007DC1);
+  background: -moz-linear-gradient(#0099CC, #007DC1);
+  background: -o-linear-gradient(#0099CC, #007DC1);
+}
+
+/*Barra superior que contiene los enlaces*/
+#secondTopBar{
+  position: fixed;
+  top: 60px;
+  left: 0;
+  min-height:25px;
+  max-height:60px;
+  padding-right:10%;
+  width:100%;
+  /*box-shadow: 3px 3px 2px #888888;*/
+  /*background-color: #0099CC;*/
+  background: -webkit-linear-gradient(#0099CC, #007DC1);
+  background: -moz-linear-gradient(#0099CC, #007DC1);
+  background: -o-linear-gradient(#0099CC, #007DC1);
+}
+
+/*Lista dentro del secondTopBar*/
+#secondTopBar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*Para indicar que los elementos de la lista se dispongan horizontalmente*/
+#secondTopBar ul li {display: inline;}
+
+/*Configuración de presentación de los links*/
+#secondTopBar ul li a:link, a:visited {
+  display: block;
+  min-width: 120px;
+  color: #000000;
+  /*background-color: #0099CC;*/
+  background: -webkit-linear-gradient(#0099CC, #007DC1);
+  background: -moz-linear-gradient(#0099CC, #007DC1);
+  background: -o-linear-gradient(#0099CC, #007DC1);
+  text-align: center;
+  padding: 4px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*Presentación de los links al pasar el ratón*/
+#secondTopBar ul li a:hover, a:active {
+ background: -webkit-linear-gradient(#007DC1, #0099CC);
+ background: -moz-linear-gradient(#007DC1, #0099CC);
+ background: -o-linear-gradient(#007DC1, #0099CC);
+ box-shadow: inset 0 0 4px white;
+}
+
+/*Link de secondTopBar que va a la izquierda*/
+.topBarLeftLink{
+  float: left;
+}
+
+/*Link de secondTopBar que va a la derecha*/
+.topBarRightLink{
+  float: right;
+}
+
+/*Div de contenido, simula un folio*/
+.contenido{
+  box-shadow: 2px 2px 1px #888888;
+  margin: 2%;
+  padding: 1%;
+  padding-bottom :1%;
+  padding-top: 0%;
+  border: 2px solid;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  margin-top:120px;
+}
+
+/*Títulos siempre al centro en contenido*/
+.contenido h2{
+  text-align:center;
+}
+
+.decoratedTable{
+  border-collapse: collapse;
+}
+
+/*Cabecera de tabla decorada*/
+.decoratedTable th{
+  font-size: 1em;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  background-color: #0099CC;
+  color: #000000;
+}
+
+/*Bordes de tabla decorada*/
+.decoratedTable table, th, td {
+ border: 1px solid black;
+}
+
+/*Altura de cabecera de tabla decorada*/
+.decoratedTable th{
+ height: 20px;
+}
+
+/*Fila de tabla decorada*/
+
+.decoratedTable tr{
+  background-color: #FFFFFF;
+}
+
+/*Color alternativo de tabla decorada*/
+.decoratedTable tr.alt td{
+
+  color: #000000;
+  background-color: #EAF2D3;
+
+}
+
+/*Contenido de tabla*/
+.decoratedTable td, .decoratedTable th {
+  font-size: 1em;
+  border: 1px solid #0099CC;
+  padding: 3px 7px 2px 7px;
+}
+
+/*Caja de búsqueda*/
+.searchBox {
+  padding:8px 15px;
+  background-color:#ebe7e4;
+  border:0px solid #dbdbdb;
+  margin:10px;
+}
+
+/*Botón de búsqueda*/
+.searchButton {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:2px solid #207cca;
+  background-color:#33B5E5;
+  color:#fafafa;
+}
+
+/*Botón de búsqueda, pasar ratón por encima*/
+.searchButton:hover  {
+  background-color:#fafafa;
+  color:#207cca;
+}
+
+/*Cuadro de editar comentario*/
+.editCommentBox form{
+ width: 440px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.panel
+{
+    position: relative;
+}
+
+.panel-default > .panel-leftheading
+{
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+.panel-primary > .panel-leftheading
+{
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+}
+
+.panel-success > .panel-leftheading
+{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.panel-info > .panel-leftheading
+{
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.panel-warning > .panel-leftheading
+{
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.panel-danger > .panel-leftheading
+{
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.panel-leftheading
+{
+    width: 42px;
+    padding: 10px 15px;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    float: left;
+    height: 100%;
+    position: absolute;
+}
+
+.panel-lefttitle
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+    font-size: 16px;
+    color: inherit;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: left top;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left top;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left top;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left top;
+    transform: rotate(90deg);
+    transform-origin: left top;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.panel-rightbody
+{
+    float: left;
+    margin-left: 45px;
+    padding: 15px;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #fff; cursor: default; overflow: auto; }
+.autocomplete-suggestion { padding: 10px 5px; font-size: 1.2em; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #f0f0f0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399ff; }

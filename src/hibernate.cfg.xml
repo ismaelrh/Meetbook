@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+		<property name="hbm2ddl.auto">update</property>
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="connection.url">jdbc:mysql://192.168.56.2:3306/meetbook</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">basesdepatos</property>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+
+<property name="hibernate.cache.use_second_level_cache">false</property>
+<property name="hibernate.cache.use_query_cache">false</property>
+<property name="hibernate.c3p0.max_statements">0</property>
+		<mapping class="infraestructura.UsuarioDTO" />
+		<mapping class="infraestructura.EventoDTO" />
+		<mapping class="infraestructura.InvitacionDTO" />
+		<mapping class="infraestructura.MensajeDTO" />
+	</session-factory>
+
+
+
+</hibernate-configuration>  
